@@ -5,6 +5,8 @@ GRANT ALL PRIVILEGES ON react_node_app.* TO ' appuser'@'%';
 FLUSH PRIVILEGES; 
 
 
+USE react_node_app; 
+
 -- Create Tables
 CREATE TABLE `author` ( 
   `id` int NOT NULL AUTO_INCREMENT, 
